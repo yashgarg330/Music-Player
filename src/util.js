@@ -61,8 +61,16 @@ function chillHop() {
 			id: uuidv4(),
 			active: false,
 		},
-		//ADD MORE HERE
+		{
+			name: "Lavish",
+			cover:
+				"https://i.scdn.co/image/ab67616d0000b27341c6625541fdb2a9918bd3c3",
+			artist: "Toonorth",
+			audio: "https://mp3.chillhop.com/serve.php/?mp3=17933",
+			color: ["#205950", "#2ab3bf"],
+			id: uuidv4(),
+			active: false,
+		},
 	];
 }
-
 export default chillHop;

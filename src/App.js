@@ -4,6 +4,8 @@ import "./styles/App.scss";
 //Adding Components
 import Player from "./components/Player";
 import Song from "./components/Song";
+import Library from "./components/Library";
+//Import App data
 import data from "./util"
 
 const App = () => {
@@ -15,6 +17,7 @@ const App = () => {
         <div>
             <Song currentSongs={currentSongs} />
             <Player isPlaying={isPlaying} setIsPlaying={setIsPlaying} currentSongs={currentSongs} />
+            <Library songs = {songs} />
         </div>
     );
 }

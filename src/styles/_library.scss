@@ -9,6 +9,7 @@
     transform: translateX(-100%);
     transition: all 0.5s ease;
     opacity: 0;
+    background: white;
     h2{
         padding: 2rem;
     }
@@ -19,6 +20,7 @@
     align-items: center;
     padding: 1rem 2rem;
     cursor: pointer;
+    transition: background-color 0.5s ease;
     img{
         width: 30%;
     }
@@ -54,4 +56,9 @@
 .active-library{
     transform: translateX(0);
     opacity: 1;
+}
+@media screen and (max-width: 786px){
+    .library{
+        width: 100%;
+    }
 }
